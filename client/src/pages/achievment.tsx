@@ -8,7 +8,7 @@ const Achievment = () => {
 
   const fetchData = async () => {
     try {
-      const response = await fetch("http://localhost:8000/project", {
+      const response = await fetch("https://anyo-assignment.onrender.com/project", {
         method: "GET",
         headers: {
           "Content-Type": "application/json",
